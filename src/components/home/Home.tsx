@@ -1,23 +1,17 @@
 import React from 'react';
-import styled from 'styled-components';
-import ImgBanner from '../../assets/banner-header.png'
+import { Header } from '../header/Header';
+
 
 
 export const Home: React.FC = () => {
   return (
-    <DivHeader >
-    <img src={ImgBanner} alt="movie mastermind banner" />
-  </DivHeader>
+   <>
+   <Header/>
+   </>
   );
 }
 
-const DivHeader = styled.div`
-  img {
-    height: 60vh; 
-    width: 100%;
-    object-fit: cover;
-  }
-`
+
 
 
 
