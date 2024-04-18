@@ -1,0 +1,28 @@
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+:root {
+  --black: #090809;
+  --red-800: #F40000;
+  --red-600: #F44E3F;
+  --red-400: #F4796B;
+  --red-200: #F4998D;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
